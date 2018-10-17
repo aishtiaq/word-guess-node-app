@@ -1,0 +1,22 @@
+{
+  "name": "word-guess-node-app",
+  "version": "1.0.0",
+  "description": "node app for guessing a word",
+  "main": "word.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aishtiaq/word-guess-node-app.git"
+  },
+  "author": "Abeer Ishtiaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aishtiaq/word-guess-node-app/issues"
+  },
+  "homepage": "https://github.com/aishtiaq/word-guess-node-app#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  }
+}
