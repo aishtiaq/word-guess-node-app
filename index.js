@@ -43,7 +43,16 @@ var main = function() {
         
     
     } else {
-        console.log("game over");
+        if(guesses <=0) {
+            console.log("game over. you ran out of guesses");
+        } else
+            console.log("game over. You guessed it right!");
+
+        guesses=9;
+        guessed=[];
+        option = wordList[Math.floor(Math.random() * wordList.length)];
+        guessWord = new Word(option.toLowerCase());
+        main();
     }
     
 }
